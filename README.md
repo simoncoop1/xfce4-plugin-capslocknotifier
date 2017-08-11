@@ -14,7 +14,11 @@ Created for a wireless keyboard with no caps lock LED
     ````shell
     apt-get install build-essential libxfce4ui-common libxfce4ui-2-0
     ````    
-3.  use xinput and look for your keyboard under "Virtual Core Keyboard". Use the id value here to modify mycaps.c. For example if id is 8 it will look like #define DEFAULT_DEVICE_ID "8"
+3.  use command:
+    ````shell
+    xinput
+    ````
+    Look for your keyboard under "Virtual Core Keyboard". Use the id value here to modify mycaps.c. For example if id is 8 it will look like #define DEFAULT_DEVICE_ID "8"
 4.  run the compile script
     ````shell
     bash make.sh
