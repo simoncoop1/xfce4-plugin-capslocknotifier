@@ -1,6 +1,6 @@
 ### xfce4-plugin-capslocknotifier
 
-### about
+### About
 
 Created for a wireless keyboard with no caps lock LED
 
